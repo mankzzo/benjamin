@@ -1,0 +1,60 @@
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    background-color: rgb(31,30,30);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 70vh;
+    border: black solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.perfil{
+    height: 35vh;
+    width: 25vh;
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 1vh;
+    margin-top: 1vh;
+    border-radius: 6px 6px 6px 6px;
+}
+.perfil h2{
+    display: flex;
+    justify-content: center;
+}
+.container-linn,
+.container-lina,
+.container-mateo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid #31363F;
+    border-radius: 5px;
+    padding: 2px;
+    width: 1300px;
+    margin-top: 10px;
+    margin-left: 2vh;
+    height: 18vh;
+    background-color: gainsboro;
+}
+
+.like{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 50px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 6px 6px 6px 6px;
+    cursor:pointer;
+    justify-content: flex-end;
+}
